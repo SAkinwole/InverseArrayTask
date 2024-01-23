@@ -28,17 +28,7 @@ namespace InverseArrayTask
 
         static void Main()
         {
-            int[] arr1 = { 1, 4, 3, 2 };
-            List<int> result1 = InversePermutation(arr1);
-
-            Console.Write("Example 1 Output: ");
-            Console.WriteLine(string.Join(" ", result1));
-
-            int[] arr2 = { 2, 3, 4, 5, 1 };
-            List<int> result2 = InversePermutation(arr2);
-
-            Console.Write("Example 2 Output: ");
-            Console.WriteLine(string.Join(" ", result2));
+           
         }
     }
 }
